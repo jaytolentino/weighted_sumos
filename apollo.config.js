@@ -1,11 +1,11 @@
 module.exports = {
   client: {
-    output: "app/javascript",
+    output: "frontend",
     outputFlat: true,
     includes: [
-      "./app/javascript/**/*.graphql",
-      "./app/javascript/**/*.tsx",
-      "./app/javascript/**/*.ts",
+      "./frontend/**/*.graphql",
+      "./frontend/**/*.tsx",
+      "./frontend/**/*.ts",
     ],
     tagName: "gql",
     service: {

@@ -2,8 +2,8 @@
   "name": "sample-app",
   "private": true,
   "scripts": {
-    "graphql:export": "bin/rails dump_graphql_schema && apollo client:codegen './app/javascript/lib/graphql/schema.ts' --target typescript --outputFlat",
-    "lint:frontend": "eslint app/javascript/**/*.ts[x]",
+    "graphql:export": "bin/rails dump_graphql_schema && apollo client:codegen './frontend/lib/graphql/schema.ts' --target typescript --outputFlat",
+    "lint:frontend": "eslint frontend/**/*.ts[x]",
     "sync:env": "bundle exec figaro heroku:set -e production -a sample-app",
     "test:frontend": "jest"
   },

@@ -19,9 +19,9 @@ environment.optimization = {
 
 environment.resolve = {
   alias: {
-    'components': 'app/javascript/components',
-    'lib': 'app/javascript/lib',
-    'hooks': 'app/javascript/hooks',
+    'components': 'frontend/components',
+    'lib': 'frontend/lib',
+    'hooks': 'frontend/hooks',
     'images': 'app/assets/images',
     'icons': 'app/assets/icons',
   },

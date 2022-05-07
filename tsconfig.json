@@ -12,15 +12,15 @@
     "noEmit": true,
     "baseUrl": ".",
     "paths": {
-      "components/*": ["app/javascript/components/*"],
-      "lib/*": ["app/javascript/lib/*"],
-      "hooks/*": ["app/javascript/hooks/*"],
+      "components/*": ["frontend/components/*"],
+      "lib/*": ["frontend/lib/*"],
+      "hooks/*": ["frontend/hooks/*"],
       "images/*": ["app/assets/images/*"],
       "icons/*": ["app/assets/icons/*"],
     }
   },
   "include": [
-    "app/javascript",
+    "frontend",
     "app/assets/images"
   ],
   "exclude": [
