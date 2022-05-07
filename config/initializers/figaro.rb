@@ -1,0 +1,1 @@
+Figaro.require_keys("SAMPLE_APP_DATABASE_PASSWORD")
