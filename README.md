@@ -1,1 +1,2 @@
-# rails_react_template
+# Weighted Sumos
+Decisions made easy with Weighted Sum(o)s
