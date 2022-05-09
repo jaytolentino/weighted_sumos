@@ -1,1 +1,1 @@
-Figaro.require_keys("SAMPLE_APP_DATABASE_PASSWORD")
+Figaro.require_keys("WEIGHTED_SUMOS_DATABASE_PASSWORD")
