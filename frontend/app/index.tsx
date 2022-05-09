@@ -26,7 +26,7 @@ const Client = new ApolloClient({
 const App: React.FC = () => {
   return(
     <ApolloProvider client={Client}>
-      <ThemeProvider focusVisibleRef={null} theme={AppTheme as DefaultTheme}>
+      <ThemeProvider theme={AppTheme as DefaultTheme}>
         <Routes />
       </ThemeProvider>
     </ApolloProvider>
